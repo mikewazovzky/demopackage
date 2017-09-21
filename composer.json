@@ -1,0 +1,24 @@
+{
+    "name": "mikewazovzky/demopackage",
+    "description": "Demo Package",
+	"keywords": ["laravel", "demo"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Wazovzky",
+            "email": "mike.wazovzky@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "Mikewazovzky\\Demopackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mikewazovzky\\Demopackage\\DemopackageServiceProvider"
+            ]
+        }
+    }
+}
